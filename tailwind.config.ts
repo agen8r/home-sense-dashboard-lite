@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				temperature: {
+					DEFAULT: 'hsl(var(--temperature))',
+					foreground: 'hsl(var(--temperature-foreground))'
+				},
+				humidity: {
+					DEFAULT: 'hsl(var(--humidity))',
+					foreground: 'hsl(var(--humidity-foreground))'
+				},
+				microphone: {
+					DEFAULT: 'hsl(var(--microphone))',
+					foreground: 'hsl(var(--microphone-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +79,13 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'card-hover': 'var(--shadow-card-hover)'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'Roboto', 'system-ui', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {
